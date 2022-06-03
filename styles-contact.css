@@ -1,0 +1,170 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 40%;
+  width: 60%;
+  padding: 10;
+  margin: 10;
+  background-image: url(images/agave-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 1000px;
+	padding: 50%;
+    margin: 0px auto;
+ 	background: rgba(255, 255, 255, 0.35); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+    font-family: "Mulish", sans-serif;
+    margin: 0px auto 10px auto;
+    color: rgb(0, 0, 0);
+	font-size: 3.0em;
+
+}
+
+h2 {
+    font-family: "Sofia", sans-serif;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	font-size: 1.8em;
+
+}
+
+h3 {
+    font-family: "Mulish", sans-serif;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	font-size: 1.8em;
+
+}
+h4{
+    font-family: "Mulish", sans-serif;
+    line-height: 1.4;
+    color: rgb(113, 113, 113);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	font-size: 1.8em;
+	border: solid brown;
+	border-width: 5px 0; 
+
+}
+p {
+    font-family: "Sofia", sans-serif;
+    line-height: .6;
+    color: rgb(0, 0, 0);
+}
+    
+nav{
+    font-family: "Mulish", sans-serif;
+	font-size: 1.8em;
+	width: 750px; 
+	margin: 0 auto; 
+	border: dashed brown;
+	border-width: 5px 0; 
+	text-align: center;
+	margin-top: 4em; 
+	background: rgba(255, 255, 255, 0.35); /*this uses opacity of 75% for the background color*/
+
+	}
+buy{
+    font-family: "Mulish", sans-serif;
+	font-size: 1.8em;
+	width: 100px; 
+	margin: 0 auto; 
+	border: solid rgb(39, 118, 19);
+	border-width: 5px 0; 
+	text-align: center;
+	margin-top: 4em; 
+	background: rgba(255, 255, 255, 0.35); /*this uses opacity of 75% for the background color*/
+
+	}
+	nav li{
+	display: inline;
+	}
+	nav a{
+	display: inline-block;
+	padding: 15px; 
+	}
+	a{
+	color: rgb(0, 0, 0);
+	text-decoration: none; 
+	font-weight: bold;
+	}
+	a:hover{
+	color: black;
+	background: rgb(42, 115, 108); 
+	}   
+
